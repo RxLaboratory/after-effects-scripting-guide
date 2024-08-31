@@ -42,6 +42,7 @@ Welcome to the After Effects Scripting Guide!
     layers/lightlayer
     layers/shapelayer
     layers/textlayer
+    layers/threedmodellayer
 
 .. toctree::
     :maxdepth: 1
@@ -73,17 +74,29 @@ Welcome to the After Effects Scripting Guide!
 
 .. toctree::
     :maxdepth: 1
+    :caption: Text
+
+    text/characterrange
+    text/composedlinerange
+    text/fontobject
+    text/fontsobject
+    text/paragraphrange
+    text/textdocument
+
+.. toctree::
+    :maxdepth: 1
     :caption: Other
 
     other/collection
     other/importoptions
     other/keyframeease
     other/markervalue
-    other/settings
     other/preferences
+    other/settings
     other/shape
-    other/textdocument
+    other/view
     other/viewer
+    other/viewoptions
 
 .. toctree::
     :maxdepth: 2

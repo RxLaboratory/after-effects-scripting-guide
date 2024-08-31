@@ -8,6 +8,143 @@ What's new and changed for scripting?
 
 ----
 
+.. _Changelog.25.0:
+
+`After Effects 25.0 Beta build 26 <https://community.adobe.com/t5/after-effects-beta-discussions/new-in-ae-25-0-build-25-scripting-hooks-for-font-fallback-management/m-p/14809794>`_ (August 2024)
+***************************************************************************************************************************************************************************************************
+
+- Scripting methods and attributes added
+	- Added: :ref:`CharacterRange.pasteFrom`
+	- Added: :ref:`FontObject.hasGlyphsFor`
+	- Added: :ref:`FontObject.otherFontsWithSameDict`
+	- Added: :ref:`FontsObject.getCTScriptForString`
+	- Added: :ref:`FontsObject.getDefaultFontForCTScript`
+	- Added: :ref:`FontsObject.setDefaultFontForCTScript`
+
+`After Effects 24.6 <https://helpx.adobe.com/after-effects/using/whats-new/2024-6.html>`_ (August 2024)
+********************************************************************************************************************************************************************************************
+
+- Scripting methods and attributes added
+	- Added: :ref:`FontsObject.favoriteFontFamilyList`
+	- Added: :ref:`FontsObject.fontsDuplicateByPostScriptName`
+	- Added: :ref:`FontsObject.freezeSyncSubstitutedFonts`
+	- Added: :ref:`FontsObject.mruFontFamilyList`
+	- Added: :ref:`FontsObject.substitutedFontReplacementMatchPolicy`
+	- Added: :ref:`FontsObject.pollForAndPushNonSystemFontFoldersChanges`
+	- Added: :ref:`TextDocument.boxAutoFitPolicy`
+	- Added: :ref:`TextDocument.boxFirstBaselineAlignment`
+	- Added: :ref:`TextDocument.boxFirstBaselineAlignmentMinimum`
+	- Added: :ref:`TextDocument.boxInsetSpacing`
+	- Added: :ref:`TextDocument.boxOverflow`
+	- Added: :ref:`TextDocument.boxVerticalAlignment`
+
+.. _Changelog.24.5:
+
+`After Effects 24.5 <https://helpx.adobe.com/after-effects/using/whats-new/2024-5.html>`_ (May 2024)
+********************************************************************************************************************************************************************************************
+
+- Scripting methods and attributes added
+	- Added: :ref:`Project.replaceFont`
+	- Added: :ref:`Project.usedFonts`
+
+.. _Changelog.24.4:
+
+`After Effects 24.4 Beta build 25 <https://community.adobe.com/t5/after-effects-beta-discussions/scripting-new-api-for-3d-model-layers/td-p/14580044>`_ (March 2024)
+********************************************************************************************************************************************************************************************
+
+	- Added: :ref:`ThreeDModelLayer`
+
+.. _Changelog.24.3:
+
+`After Effects 24.3 <https://helpx.adobe.com/after-effects/using/whats-new/2024-3.html>`_ (March 2024)
+********************************************************************************************************************************************************************************************
+
+- Scripting methods and attributes added
+	- Added: :ref:`CharacterRange object<CharacterRange>`
+	- Added: :ref:`ParagraphRange object<ParagraphRange>`
+	- Added: :ref:`ComposedLineRange object<ComposedLineRange>`
+	- Added: :ref:`TextDocument.characterRange`
+	- Added: :ref:`TextDocument.composedLineCharacterIndexesAt`
+	- Added: :ref:`TextDocument.composedLineCount`
+	- Added: :ref:`TextDocument.composedLineRange`
+	- Added: :ref:`TextDocument.paragraphCharacterIndexesAt`
+	- Added: :ref:`TextDocument.paragraphCount`
+	- Added: :ref:`TextDocument.paragraphRange`
+	- Changed: :ref:`app.purge` - `PurgeTarget.ALL_CACHES` now includes the disk cache
+
+`After Effects 24.2 <https://helpx.adobe.com/after-effects/using/whats-new/2024-2.html>`_ (February 2024)
+********************************************************************************************************************************************************************************************
+
+- Scripting methods and attributes added or changed
+	- Added: :ref:`LayerCollection.addVerticalText`
+	- Added: :ref:`LayerCollection.addVerticalBoxText`
+	- Added: :ref:`TextDocument.lineOrientation`
+	- Added: :ref:`FontsObject.fontServerRevision`
+	- Added: :ref:`FontsObject.getFontByID`
+	- Added: :ref:`FontObject.fontID`
+
+.. _Changelog.24.0:
+
+`After Effects 24.0 <https://helpx.adobe.com/after-effects/using/whats-new/2024.html>`_ (October 2023)
+********************************************************************************************************************************************************************************************
+
+- Scripting methods and attributes added
+	- Added: :ref:`getEnumAsString`
+	- Added: :ref:`app.fonts`
+	- Added: :ref:`FontsObject`
+	- Added: :ref:`FontsObject.allFonts`
+	- Added: :ref:`FontsObject.fontsWithDefaultDesignAxes`
+	- Added: :ref:`FontsObject.getFontsByFamilyNameAndStyleName`
+	- Added: :ref:`FontsObject.getFontsByPostScriptName`
+	- Added: :ref:`FontsObject.missingOrSubstitutedFonts`
+	- Added: :ref:`FontObject`
+	- Added: :ref:`FontObject.designAxesData`
+	- Added: :ref:`FontObject.designVector`
+	- Added: :ref:`FontObject.familyPrefix`
+	- Added: :ref:`FontObject.hasDesignAxes`
+	- Added: :ref:`FontObject.hasSameDict`
+	- Added: :ref:`FontObject.postScriptNameForDesignVector`
+	- Added: :ref:`FontObject.familyName`
+	- Added: :ref:`FontObject.fullName`
+	- Added: :ref:`FontObject.isFromAdobeFonts`
+	- Added: :ref:`FontObject.isSubstitute`
+	- Added: :ref:`FontObject.location`
+	- Added: :ref:`FontObject.nativeFamilyName`
+	- Added: :ref:`FontObject.nativeFullName`
+	- Added: :ref:`FontObject.nativeStyleName`
+	- Added: :ref:`FontObject.postScriptName`
+	- Added: :ref:`FontObject.styleName`
+	- Added: :ref:`FontObject.technology`
+	- Added: :ref:`FontObject.type`
+	- Added: :ref:`FontObject.version`
+	- Added: :ref:`FontObject.writingScripts`
+	- Added: :ref:`TextDocument.autoHyphenate`
+	- Added: :ref:`TextDocument.autoKernType`
+	- Added: :ref:`TextDocument.baselineDirection`
+	- Added: :ref:`TextDocument.composerEngine`
+	- Added: :ref:`TextDocument.digitSet`
+	- Added: :ref:`TextDocument.direction`
+	- Added: :ref:`TextDocument.endIndent`
+	- Added: :ref:`TextDocument.everyLineComposer`
+	- Added: :ref:`TextDocument.firstLineIndent`
+	- Added: :ref:`TextDocument.fontBaselineOption`
+	- Added: :ref:`TextDocument.fontCapsOption`
+	- Added: :ref:`TextDocument.fontObject`
+	- Added: :ref:`TextDocument.hangingRoman`
+	- Added: :ref:`TextDocument.kerning`
+	- Added: :ref:`TextDocument.leadingType`
+	- Added: :ref:`TextDocument.ligature`
+	- Added: :ref:`TextDocument.lineJoinType`
+	- Added: :ref:`TextDocument.noBreak`
+	- Added: :ref:`TextDocument.spaceAfter`
+	- Added: :ref:`TextDocument.spaceBefore`
+	- Added: :ref:`TextDocument.startIndent`
+
+- Scripting attributes updated
+	- Updated: :ref:`TextDocument.fauxBold`
+	- Updated: :ref:`TextDocument.fauxItalic`
+	- Updated: :ref:`TextDocument.justification`
+
 .. _Changelog.23.0:
 
 `After Effects 23.0 <https://helpx.adobe.com/after-effects/using/whats-new/2023.html>`_ (October 2022)
@@ -52,7 +189,7 @@ What's new and changed for scripting?
 	- Added: :ref:`Project.layerByID`
 	- Added: :ref:`Property.essentialPropertySource`
 - Scripting Access to Render Queue Notifications
-    - Added: :ref:`RenderQueue.queueNotify` 
+    - Added: :ref:`RenderQueue.queueNotify`
     - Added: :ref:`RenderQueueItem.queueItemNotify`
 - Scripting Access to Multi-Frame Rendering, Maximum CPU Percentage Overrides
     - Added: :ref:`app.setMultiFrameRenderingConfig`
@@ -106,11 +243,11 @@ What's new and changed for scripting?
 `After Effects 16.1`_
 ************************************************************************************************************************************
 
-- Scripting access to Viewer guide and ruler booleans:
-	- Added: :ref:`Viewer.guidesLocked`
-	- Added: :ref:`Viewer.guidesSnap`
-	- Added: :ref:`Viewer.guidesVisibility`
-	- Added: :ref:`Viewer.rulers`
+- Scripting access to :ref:`ViewOptions` guide and ruler booleans:
+	- Added: :ref:`ViewOptions.guidesLocked`
+	- Added: :ref:`ViewOptions.guidesSnap`
+	- Added: :ref:`ViewOptions.guidesVisibility`
+	- Added: :ref:`ViewOptions.rulers`
 - Scripting access to add, remove, and set existing guides:
 	- Added: :ref:`Item.addGuide`
 	- Added: :ref:`Item.removeGuide`
@@ -315,7 +452,7 @@ What's new and changed for scripting?
 - Access to effect's internal version string
 	- Added: Application effects object's version attribute, see :ref:`app.effects`
 - Ability to get and set preview mode
-	- Added: :ref:`Viewer.fastPreview`
+	- Added: :ref:`ViewOptions.fastPreview`
 - Access to layer sampling method (see :ref:`samplingQuality <AVLayer.samplingQuality>`)
 - Changed preference and settings methods (see :ref:`Settings`)
 - ScriptUI is now based on the same controls as the main application.
